@@ -1,0 +1,21 @@
+@use "./colors.scss";
+@use "./fonts.scss";
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: 1.6rem; /* 16px */
+  color: var(--neutral-neutral-600);
+}
+
+.typography-h1--regular {
+    font-family: var(--font-Inter);
+    font-size: 3.4rem;
+    font-style: normal;
+    font-weight: 700;
+    color: red;
+    line-height: 130%;
+}

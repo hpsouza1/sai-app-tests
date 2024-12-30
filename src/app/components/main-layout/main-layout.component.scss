@@ -1,0 +1,15 @@
+.main-container {
+  display: flex;
+}
+
+.sidebar {
+  height: calc(100vh - 60px);
+  border: 1px solid #000;
+  width: 265px;
+}
+
+.content {
+  border: 1px solid red;
+  width: 100%;
+  
+}
